@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.game {
+    background-image: url("../Assets/Images/gaming-pattern.png");
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+.body {
+    font-weight: 400;
+    font-size: 10%;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+
+}
+
+.about-me {
+    clear: left;
+    overflow: auto;
+}
+
+.footer {
+    position: fixed;
+    background: #4aaaa5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+
+}
+
+
+.container {
+    background-color: white;
+    font-weight: 600px;
+    
+
+}
+
+.main-pic {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 200px;
+
+}
+
+input[type=submit]{
+    background: #4aaaa5;
+    border: 0 none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+h1 h2 h3 {
+ opacity: 0.5;   
+}
+
+@media only screen and  (max-width: 960px) {
+.back {
+    /* background-image: none */
+     background-color:  #9bd80b;
+     font-size: 1.5rem;
+     line-height: 1.5;
+    }
+}
+
+@media only screen and  (max-width: 768px) {
+    .back {
+        /* background-image: none */
+         background-color:  #af0bd8;
+         font-size: 1.5rem;
+         line-height: 1.5;
+        }
+    }
+
+    @media only screen and  (max-width: 640px) {
+        .back {
+            /* background-image: none */
+             background-color:  #e40d0d;
+             font-size: 1.5rem;
+             line-height: 1.5;
+            }
+        }
+
+
